@@ -1,19 +1,25 @@
 body {
     background: rgb(2,0,32);
-    background: linear-gradient(90deg, rgba(2,0,32,1) 29%, rgba(6,6,121,1) 81%, rgba(3,148,213,1) 96%, rgba(230,134,251,1) 100%); 
+    background: linear-gradient(25deg,#A683E3 40%,rgba(228, 233, 253, 1) 40%);
     text-align: center;
 }
 
 h1 {
-    color:aqua;
-    font-size:2.5rem;
-    margin-bottom: 50px;
-}
-
-h2,p {
     color:white;
-}
-
+    font-family:'Sniglet';
+    font-size: 2rem;
+    padding:10px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    color: #00204a;
+    font-family: 'Dosis';
+    font-weight:300;
+  
+  }
 .container{
     transform: translateY(45%);
 }
@@ -76,3 +82,15 @@ footer{
     color:white;
     margin-top:100px;
 }
+
+.box {
+    width: 350px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+ }
+ 
+  #heading {
+     background-color:#A683E3;
+ }
